@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="致歉"
+            android:textSize="20dp"
+            android:id="@+id/button"
+            android:layout_weight="0.2"
+            android:maxEms="1"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="婉拒"
+            android:textSize="20dp"
+            android:id="@+id/button2"
+
+            android:layout_weight="0.2"
+            android:maxEms="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="请托"
+            android:id="@+id/button3"
+            android:layout_weight="0.2"
+            android:maxEms="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="感谢"
+            android:id="@+id/button4"
+            android:layout_weight="0.2"
+            android:maxEms="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="规劝"
+            android:id="@+id/button5"
+            android:layout_weight="0.2"
+            android:maxEms="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="主题选择"
+        android:id="@+id/textView"
+        android:textSize="30dp"
+        android:maxEms="2"
+        android:textIsSelectable="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:textSize="20dp"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_below="@+id/linearLayout2"
+        android:id="@+id/linearLayout"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"></LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="家书"
+            android:maxEms="1"
+            android:id="@+id/button6"
+            android:layout_weight="0.08" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/linearLayout3">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:maxEms="1"
+            android:text="爱慕"
+            android:id="@+id/button7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/linearLayout3"
+        android:layout_toLeftOf="@+id/linearLayout3"
+        android:layout_toStartOf="@+id/linearLayout3">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="问候"
+            android:textSize="20dp"
+            android:maxEms="1"
+            android:id="@+id/button8" />
+    </LinearLayout>
+
+
+</RelativeLayout>
