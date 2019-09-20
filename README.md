@@ -1,5 +1,5 @@
 # A Letter
-Transform letter to a decent and classical style, combined with text emojis. 
+Generate a letter to with a decent and classical style, combined with text emojis from limited simple input. 
 + This is a letter generator that can transform several sentences composed of modern Chinese to a complete letter with all sections in ancient Chinese letter. 
 + The letter also transform the modern Chinese to ancient Chinese. 
  It's like when you input "Can I compare you to a summer's day? Although you are more lovely and more temperate."  It returns
